@@ -1,0 +1,58 @@
+.login h1 {
+margin-bottom: 30px;
+align-self: center;
+font-size: 33px;
+font-weight: bold;
+}
+
+.login_form {
+    display: flex;
+    flex-direction: column;
+}
+.login_form input {
+   height: 50px;
+   border-radius: 10px;
+   padding: 2px 5px;
+}
+.login .input_field {
+    margin: 10px 0px;
+    padding: 2px 5px;
+}
+
+.login_form .input_btn {
+    margin-top: 10px;
+    background-color: #67afdf;
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.login_form .input_google_btn {
+    margin-top: 30px;
+    color: black;
+    border: none;
+    outline: 1px solid black ;
+    font-size: 22px;
+    color: black;
+    cursor: pointer;
+}
+
+.input_google_btn:hover{
+    transition: all 0.2s linear;
+  background-color: #535353;
+  color: white;
+  cursor: pointer;
+}
+
+.login p {
+    text-align: center;
+}
+
+.login_switch {
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+    cursor: pointer;
+}
